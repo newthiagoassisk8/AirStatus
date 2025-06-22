@@ -1,2 +1,37 @@
-.idea
-__pycache__
+# Diretórios de ambiente virtual
+venv/
+.env/
+.venv/
+
+# Cache do Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Arquivos de log e temporários
+*.log
+*.tmp
+
+# Configurações de IDE/editor
+.vscode/
+.idea/
+
+# Arquivos de testes
+htmlcov/
+.tox/
+.coverage
+.cache/
+.pytest_cache/
+
+# Arquivos de pacotes
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Jupyter Notebooks checkpoints (se usar)
+.ipynb_checkpoints/
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
